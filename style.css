@@ -1,0 +1,194 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background: #FFFF;
+    padding: 8px;
+    box-shadow: 0 1px 3px #11182717;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+
+}
+.end-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F1F5F9;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;  
+    padding: 0 16px;
+}
+
+.search-bar {
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #94a3b8; 
+}
+
+.search-icon {
+    color: #94a3b8; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero {
+    background: #754ffe;
+    color: white;
+    text-align: left;
+    padding: 0 10% 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding-left: 5%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.hero-img {
+    max-width: 45%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.features h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.features p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
+
+.discount-price {
+    font-weight: bold;
+    color: #000;
+}
+
+.rating {
+    color: #ff9800;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.btn-icon {
+    background-color: #000;
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: .92969rem;
+    font-weight: 400;
+    height: 2.5rem;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 2.5rem;
+}
+
+@media (max-width: 992px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 90%;
+        padding: 0;
+    }
+
+    .hero-img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
