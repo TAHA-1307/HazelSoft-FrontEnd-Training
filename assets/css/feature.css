@@ -1,0 +1,45 @@
+.features {
+    display: flex;
+    background-color: #FFFF;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px 0;
+    height: auto;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Spacing between icon and text */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    background-color: #ffeeda;
+    border-radius: 50%; /* Making it circular */
+}
+
+.features h4 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e293b;
+    margin: 0;
+}
+
+.features p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
